@@ -33,3 +33,27 @@ header {
     font-style: italic;
     text-align: center;
 }
+article {
+    max-width: 900px; /* Non far diventare le righe troppo lunghe */
+    margin: 0 auto;
+    padding: 40px 20px;
+    background: white;
+    text-align: justify; /* Testo giustificato per un look professionale */
+}
+
+h2 {
+    color: #c0392b; /* Un rosso scuro per i titoli principali */
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+strong {
+    color: #2c3e50;
+}
